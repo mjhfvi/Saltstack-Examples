@@ -1,0 +1,5 @@
+#salt singal script run
+salt '*' state.sls data.sls
+
+#salt run full environment
+salt '*' state.highstate
