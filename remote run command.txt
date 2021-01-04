@@ -1,1 +1,0 @@
-salt -E '.*' cmd.run 'ls -l'

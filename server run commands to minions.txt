@@ -1,0 +1,12 @@
+#source: http://siddesh-bg.blogspot.com/2015/12/salt-common-modules.html
+
+salt-call sys.list_functions user
+
+# example
+salt 'ops02.localdomain' pkg.list_pkgs
+
+# list all minions on server
+salt-key -L
+
+# run script on minions
+salt 'ops*' state.apply

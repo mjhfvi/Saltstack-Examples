@@ -1,3 +1,0 @@
-install_httpd:
-  pkg.installed:
-    - httpd
